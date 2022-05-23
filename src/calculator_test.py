@@ -17,7 +17,7 @@ class CalculatorTest(unittest.TestCase):
         self.assertEqual(self.calculator.multiplication(), 800)
 
     def test_division(self):
-        self.assertEqual(self.calculator.division(), 500)
+        self.assertEqual(self.calculator.division(), 50)
 
 if __name__ == "__main__":
     unittest.main()
